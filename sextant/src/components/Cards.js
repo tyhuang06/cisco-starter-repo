@@ -6,6 +6,7 @@ const Cards = () => {
 		<div className="cards flex justify-center">
 			<Card ipStyle="ipv4" />
 			<Card ipStyle="ipv6" />
+			<Card />
 		</div>
 	);
 };

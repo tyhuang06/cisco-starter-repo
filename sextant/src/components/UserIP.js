@@ -19,10 +19,11 @@ const UserIP = ({ ipStyle }) => {
 	return (
 		<div className="user-ip">
 			{ipStyle === 'ipv6' ? (
-				<h2>Your IPv6 address is: {ip}</h2>
+				<h2>Your IPv6 address is: </h2>
 			) : (
-				<h2>Your IPv4 address is: {ip}</h2>
+				<h2>Your IPv4 address is: </h2>
 			)}
+			<div>{ip}</div>
 		</div>
 	);
 };
