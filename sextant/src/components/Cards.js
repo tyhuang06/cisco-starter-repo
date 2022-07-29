@@ -3,7 +3,7 @@ import Card from './Card';
 
 const Cards = () => {
 	return (
-		<div className="cards">
+		<div className="cards flex justify-center">
 			<Card ipStyle="ipv4" />
 			<Card ipStyle="ipv6" />
 		</div>
